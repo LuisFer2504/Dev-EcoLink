@@ -1,50 +1,64 @@
-# React + TypeScript + Vite
+# 🌊 Dev-EcoLink
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Dev-EcoLink** es una aplicación web desarrollada con **React**, **TypeScript** y **Tailwind CSS**, diseñada para fomentar el cuidado del medio ambiente mediante la participación ciudadana.
 
-Currently, two official plugins are available:
+El proyecto propone una experiencia gamificada donde los usuarios pueden registrar actividades ecológicas, acumular puntos, completar retos y contribuir al cuidado de las playas de Paita.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Características
 
-## Expanding the ESLint configuration
+- 🌍 Mapa interactivo de playas.
+- 📸 Registro de actividades ecológicas.
+- 🏆 Sistema de puntos y niveles.
+- 🎯 Retos ambientales.
+- 🎁 Canje de recompensas.
+- 📊 Ranking de usuarios.
+- 🐢 Contenido educativo sobre el cuidado ambiental.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🚀 Tecnologías utilizadas
 
-- Configure the top-level `parserOptions` property like this:
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📦 Instalación
+
+Clona el repositorio:
+
+```bash
+git clone https://github.com/TU_USUARIO/Dev-EcoLink.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Ingresa al proyecto:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+cd Dev-EcoLink
 ```
+
+Instala las dependencias:
+
+```bash
+npm install
+```
+
+Ejecuta el proyecto:
+
+```bash
+npm run dev
+```
+
+## 📁 Estructura del proyecto
+
+```
+src/
+├── components/
+└── App.tsx
+```
+
+## 🎯 Objetivo
+
+Promover la conciencia ambiental y el cuidado de las playas mediante una plataforma digital interactiva que incentive la participación de la comunidad a través de un sistema de gamificación.
+
+## 📄 Licencia
+
+Este proyecto fue desarrollado con fines académicos y de aprendizaje.
