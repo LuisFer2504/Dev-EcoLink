@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-figtree bg-sand text-ink antialiased min-h-screen m-0 p-0;
+    background-image: 
+      radial-gradient(circle at 85% -10%, rgba(217, 164, 65, 0.18), transparent 40%),
+      linear-gradient(to bottom, #F3E9D6, #E6D6B0);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-fraunces;
+  }
+}
+
+/* Custom scrollbar styling for webkit browsers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E6D6B0;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D9A441;
+}
+
+/* Scan laser animation for QR scanner component */
+@keyframes scanmove {
+  0% { top: 10%; }
+  50% { top: 88%; }
+  100% { top: 10%; }
+}
+
+.animate-scan {
+  animation: scanmove 2s ease-in-out infinite;
+}
