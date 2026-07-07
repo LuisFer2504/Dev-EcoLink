@@ -4,6 +4,10 @@
 
 El proyecto propone una experiencia gamificada donde los usuarios pueden registrar actividades ecológicas, acumular puntos, completar retos y contribuir al cuidado de las playas de Paita.
 
+## 🌐 Demo en línea
+
+🔗 **Accede a la aplicación:** https://dev-eco-link.vercel.app/
+
 ## ✨ Características
 
 - 🌍 Mapa interactivo de playas.
